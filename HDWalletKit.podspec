@@ -19,7 +19,7 @@ generation and management.
   s.swift_version = '5.6'
 
   # CocoaPods 依赖（注意：如果库没有 pod，需要在 Podfile 中用 Git 引用）
-  s.dependency 'swift-crypto', '~> 2.0'        # Apple 官方库
+  s.dependency 'swift-crypto'
   s.dependency 'secp256k1.swift'
   s.dependency 'HsCryptoKit.Swift'
 
